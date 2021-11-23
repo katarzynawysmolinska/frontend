@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+div {
+	border: 2px solid black;
+}
+
+body > div {
+	height: 40vh;
+	/* width: 100vw; */
+	display: flex;
+}
+
+body > .logo {
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+.logoWrapper1 {
+	width: 55vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.logoWrapper1 > div:nth-child(1) {
+	flex: 10;
+}
+
+.logoWrapper1 > div:nth-child(2) {
+	flex: 1;
+}
+
+.logoWrapper2 {
+	display: flex;
+}
+
+.logoWrapper2 > div {
+	flex: 1;
+	/* border: none; */
+}
+
+.jpg {
+	background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/sprites.jpg?raw=true);
+	width: 90px;
+	height: 90px;
+}
+
+/* absolutne */
+
+.absolute {
+	flex-direction: column;
+	padding: 20px;
+}
+
+.absolute p {
+	display: block;
+	flex: 2;
+}
+
+.legend {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+}
+
+.absolute > .chartX {
+	flex: 10;
+	display: flex;
+	justify-content: space-around;
+}
+
+.chartX > div {
+	width: 5%;
+}
+
+.chartX > div:nth-child(1) {
+	height: 100px;
+	background-color: blue;
+}
+
+.chartX > div:nth-child(2) {
+	height: 100px;
+	background-color: rgb(123, 256, 256);
+}
+
+.chartX > div:nth-child(3) {
+	height: 100px;
+	background-color: #e34;
+}
+
+.chartX > div:nth-child(4) {
+	height: 100px;
+	background-color: #bca;
+}
+
+.chartX > div:nth-child(5) {
+	height: 100px;
+	background-color: rgb(256, 216, 216);
+}

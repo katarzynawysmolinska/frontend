@@ -1,6 +1,73 @@
-body{
-    font-family: 'Comforter Brush', sans-serif;
-  }
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 10vh;
+	/* margin: 0;
+	padding: 0;
+	box-sizing: border-box; */
+	font-size: 20px;
+	background-color: #6788;
+}
+
+.title {
+	border: 2px solid red;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: #5678;
+}
+
+.subtitle {
+	border: 2px dashed red;
+	display: flex;
+	padding: 40px;
+	justify-content: space-evenly;
+}
+
+.subtitle .gif {
+	border: 2px dashed red;
+	width: 75px;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subtitle .gif img {
+	max-width: 50%;
+	max-height: 50%;
+}
+
+.content {
+	display: flex;
+	border: 2px dashed red;
+	padding: 40px;
+}
+
+.content div {
+	border: 2px dashed red;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gif {
+	flex: 6;
+}
+
+.about {
+	flex: 5;
+}
+
+.footer {
+	border: 2px dashed red;
+	display: flex;
+	justify-content: flex-end;
+	padding: 15px;
+}
+
+/* 
+
   .container{
     border:2px solid #000;
     display:flex;
@@ -10,4 +77,4 @@ body{
     border:2px dashed red;
     margin:10px;
     padding:10px;
-  }
+  } */

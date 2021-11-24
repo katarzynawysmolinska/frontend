@@ -44,6 +44,13 @@ a {
 	height: 200px;
 }
 
+.jpg:hover {
+	background-position: 0 -200px;
+}
+
+.jpg:action {
+	background-position: 0 -400px;
+}
 /* absolutne */
 
 .absolute {
@@ -126,14 +133,13 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	flex: 1;
 }
 
 .legend-chartY > div {
 	border: none;
 }
 
-.relative > .chartY {
+.relative .chartY {
 	flex: 10;
 	display: flex;
 	flex-direction: column;
@@ -169,5 +175,20 @@ a {
 
 .legend-chartX,
 .legend-chartY {
+	border: none;
+}
+
+.container {
+	flex-direction: column;
+}
+
+.fonts {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.em {
+	display: flex;
+	font-size: 2em;
 	border: none;
 }

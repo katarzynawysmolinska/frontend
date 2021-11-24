@@ -1,6 +1,5 @@
 * {
 	margin: 0;
-	box-sizing: border-box;
 	padding: 0;
 }
 
@@ -20,17 +19,8 @@ body > .logo {
 }
 
 .logoWrapper1 {
-	width: 55vh;
 	display: flex;
 	flex-direction: column;
-}
-
-.logoWrapper1 > div:nth-child(1) {
-	flex: 10;
-}
-
-.logoWrapper1 > div:nth-child(2) {
-	flex: 1;
 }
 
 .logoWrapper2 {
@@ -42,10 +32,16 @@ body > .logo {
 	/* border: none; */
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .jpg {
-	background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw1/sprites.jpg?raw=true);
-	width: 90px;
-	height: 90px;
+	background-image: url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw1/logo_sprites.jpg);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 200px;
 }
 
 /* absolutne */
@@ -55,21 +51,27 @@ body > .logo {
 	padding: 20px;
 }
 
-.absolute p {
+.absolute {
 	display: block;
 	flex: 2;
+	padding: 10px 8px 30px 8px;
 }
 
-.legend {
+.legend-chartX {
 	display: flex;
 	justify-content: space-around;
 	flex: 1;
+}
+
+.legend-chartX > div {
+	border: none;
 }
 
 .absolute > .chartX {
 	flex: 10;
 	display: flex;
 	justify-content: space-around;
+	padding: 0 0 20px 0;
 }
 
 .chartX > div {
@@ -77,26 +79,85 @@ body > .logo {
 }
 
 .chartX > div:nth-child(1) {
-	height: 100px;
+	height: 50px;
 	background-color: blue;
 }
 
 .chartX > div:nth-child(2) {
-	height: 100px;
+	height: 5cm;
 	background-color: rgb(123, 256, 256);
 }
 
 .chartX > div:nth-child(3) {
-	height: 100px;
+	height: 40mm;
 	background-color: #e34;
 }
 
 .chartX > div:nth-child(4) {
-	height: 100px;
+	height: 10pt;
 	background-color: #bca;
 }
 
 .chartX > div:nth-child(5) {
-	height: 100px;
+	height: 5pc;
 	background-color: rgb(256, 216, 216);
+}
+
+/* relatywne */
+
+.relative {
+	flex-direction: column;
+	padding: 20px;
+}
+
+.relative {
+	display: block;
+	flex: 2;
+	padding: 10px 8px 30px 8px;
+}
+
+.legend-chartY {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+}
+
+.legend-chartY > div {
+	border: none;
+}
+
+.relative > .chartY {
+	flex: 10;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0 20px 0;
+}
+
+.chartY > div {
+	width: 5%;
+}
+
+.chartY > div:nth-child(1) {
+	height: 80%;
+	background-color: blue;
+}
+
+.chartY > div:nth-child(2) {
+	height: 4em;
+	background-color: rgb(123, 256, 256);
+}
+
+.chartY > div:nth-child(3) {
+	height: 4rem;
+	background-color: #e34;
+}
+
+.chartY > div:nth-child(4) {
+	height: 10vw;
+	background-color: #bca;
+}
+
+.legend-chartX,
+.legend-chartY {
+	border: none;
 }

@@ -30,6 +30,7 @@ p.first {
 	color: white;
 	font-size: 30px;
 	margin: 80px 0px 80px;
+	padding-left: 80px;
 }
 
 .wrapper {

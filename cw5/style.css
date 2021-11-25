@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-	font-size: 100px;
+	font-size: 105px;
 }
 
 .wrapper {
@@ -35,23 +35,23 @@ a:hover {
 	gap: 10px;
 }
 
-.wrapper:nth-child(1) {
+.wrapper a:nth-child(1) {
 	grid-area: b1;
 	background-color: rgb(192, 15, 62);
 }
-.wrapper:nth-child(2) {
+.wrapper a:nth-child(2) {
 	grid-area: b2;
 	background-color: rgb(34, 0, 255);
 }
-.wrapper:nth-child(3) {
+.wrapper a:nth-child(3) {
 	grid-area: b3;
 	background-color: rgb(23, 200, 23);
 }
-.wrapper:nth-child(4) {
+.wrapper a:nth-child(4) {
 	grid-area: b4;
 	background-color: yellow;
 }
-.wrapper:nth-child(5) {
+.wrapper a:nth-child(5) {
 	grid-area: b5;
 	background-color: purple;
 }

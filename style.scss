@@ -1,0 +1,26 @@
+body {
+	background-color: aliceblue;
+	h2 {
+		text-align: center;
+	}
+	main {
+		display: flex;
+		justify-content: center;
+		max-width: 90vw;
+		div {
+			border: 2px solid black;
+			flex: 1;
+			display: grid;
+			place-items: center;
+			padding: 5vw;
+			cursor: pointer;
+		}
+		img {
+			max-width: 100%;
+			flex: 3;
+		}
+	}
+	footer {
+		text-align: right;
+	}
+}

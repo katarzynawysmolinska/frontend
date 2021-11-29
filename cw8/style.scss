@@ -1,0 +1,20 @@
+body {
+	background-color: aliceblue;
+	h2 {
+		text-align: center;
+	}
+	main {
+		display: flex;
+		justify-content: center;
+		div {
+			border: 2px solid black;
+		}
+		img {
+			max-width: 100%;
+			flex: 1;
+		}
+	}
+	footer {
+		text-align: right;
+	}
+}

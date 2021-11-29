@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+body h2 {
+  text-align: center;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main div {
+  border: 2px solid black;
+}
+
+body main img {
+  max-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body footer {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
